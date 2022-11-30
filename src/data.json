@@ -1,0 +1,189 @@
+{
+    "products": [
+        {
+            "_id": "Murkrow",
+            "image": "/images/Murkrow.jpg",
+            "price": 400,
+            "type": [
+                "Flying ",
+                "Dark "
+            ],
+            "evolution": 1
+        },
+        {
+            "_id": "Cottonee",
+            "image": "/images/cottonee.jpg",
+            "price": 550,
+            "type": [
+                "Grass ",
+                "Fairy "
+            ],
+            "evolution": 1
+        },
+        {
+            "_id": "Charzard",
+            "image": "/images/charzard.jpg",
+            "price": 6000,
+            "type": "Fire ",
+            "evolution": 3
+        },
+        {
+            "_id": "Dugtrio",
+            "image": "/images/dugtrio.jpg",
+            "price": 1500,
+            "type": [
+                "Ground ",
+                "Steel "
+            ],
+            "evolution": 2
+        },
+        {
+            "_id": "Magikarp",
+            "image": "/images/magikarp.jpg",
+            "price": 999999999,
+            "type": "Water ",
+            "evolution": 1
+        },
+        {
+            "_id": "Treeko",
+            "image": "/images/treeko.jpg",
+            "price": 700,
+            "type": "Grass ",
+            "evolution": 1
+        },
+        {
+            "_id": "Latias",
+            "image": "/images/latias.jpg",
+            "price": 100000,
+            "type": [
+                "Dragon ",
+                "Psychic "
+            ],
+            "evolution": 1
+        },
+        {
+            "_id": "Umbreon",
+            "image": "/images/umbreon.jpg",
+            "price": 3000,
+            "type": "Dark ",
+            "evolution": 2
+        },
+        {
+            "_id": "Plusle",
+            "image": "/images/plusle.jpg",
+            "price": 1500,
+            "type": "Electric ",
+            "evolution": 1
+        },
+        {
+            "_id": "Chubchoo",
+            "image": "/images/chubchoo.jpg",
+            "price": 3000,
+            "type": "Ice ",
+            "evolution": 1
+        },
+        {
+            "_id": "Weedle",
+            "image": "/images/weedle.jpg",
+            "price": 500,
+            "type": [
+                "Poison ",
+                "Bug "
+            ],
+            "evolution": 1
+        },
+        {
+            "_id": "Politoed",
+            "image": "/images/politoed.jpg",
+            "price": 700,
+            "type": "Water ",
+            "evolution": 1
+        },
+        {
+            "_id": "Typhlosion",
+            "image": "/images/typhlosion.jpg",
+            "price": 1800,
+            "type": "Fire ",
+            "evolution": 3
+        },
+        {
+            "_id": "Chimchar",
+            "image": "/images/chimchar.jpg",
+            "price": 700,
+            "type": "Fire ",
+            "evolution": 1
+        },
+        {
+            "_id": "Pansage",
+            "image": "/images/pansage.jpg",
+            "price": 9000,
+            "type": "Grass ",
+            "evolution": 1
+        },
+        {
+            "_id": "Rillaboom",
+            "image": "/images/rillaboom.jpg",
+            "price": 700000,
+            "type": "Grass ",
+            "evolution": 3
+        },
+        {
+            "_id": "Dratini",
+            "image": "/images/dratini.jpg",
+            "price": 1000,
+            "type": "Dragon ",
+            "evolution": 1
+        },
+        {
+            "_id": "Altaria",
+            "image": "/images/altaria.jpg",
+            "price": 50000,
+            "type": [
+                "Dragon ",
+                "Flying ",
+                "Fairy "
+            ],
+            "evolution": 2
+        },
+        {
+            "_id": "Dragalge",
+            "image": "/images/dragalge.jpg",
+            "price": 2000,
+            "type": [
+                "Poison ",
+                "Dragon "
+            ],
+            "evolution": 2
+        },
+        {
+            "_id": "Dedenne",
+            "image": "/images/dedenne.jpg",
+            "price": 700,
+            "type": [
+                "Electric ",
+                "Fairy "
+            ],
+            "evolution": 1
+        },
+        {
+            "_id": "Lugia",
+            "image": "/images/lugia.jpg",
+            "price": 10000,
+            "type": [
+                "Psychic ",
+                "Flying "
+            ],
+            "evolution": 1
+        },
+        {
+            "_id": "Orbeetle",
+            "image": "/images/orbeetle.jpg",
+            "price": 1700,
+            "type": [
+                "Bug ",
+                "Psychic "
+            ],
+            "evolution": 3
+        }
+    ]
+}
