@@ -14,25 +14,19 @@ export default class Filter extends Component {
                 {/* adds a dropdown button for the type filter method */}
                 <div>Type{" "}<select className="filterName" value={this.props.type} onChange={this.props.typeFilter}>
                     <option value="">All</option>
-                    <option value="Bug ">Bug</option>
-                    <option value="Dark ">Dark</option>
-                    <option value="Dragon ">Dragon</option>
-                    <option value="Electric ">Electric</option>
-                    <option value="Fire ">Fire</option>
-                    <option value="Fairy ">Fairy</option>
-                    <option value="Flying ">Flying</option>
-                    <option value="Grass ">Grass</option>
-                    <option value="Ice ">Ice</option>
-                    <option value="Poison ">Poison</option>
-                    <option value="Psychic ">Psychic</option>
-                    <option value="Water ">Water</option>
+                    <option value="Cake ">Cake</option>
+                    <option value="Pie ">Pie</option>
+                    <option value="Cookie ">Cookie</option>
+                    <option value="Cupcake ">Cupcake</option>
+                    <option value="Slice ">Slice</option>
                 </select></div>
-                {/* adds a dropdown button for the evolution filter method */}
-                <div>Evolution{" "}<select className="filterName" value={this.props.evolution} onChange={this.props.evolutionFilter}>
+                {/* adds a dropdown button for the flavor filter method */}
+                <div>Flavor{" "}<select className="filterName" value={this.props.flavor} onChange={this.props.flavorFilter}>
                     <option value="">All</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
+                    <option value="Fall ">Fall</option>
+                    <option value="Vanilla ">Vanilla</option>
+                    <option value="Chocolate ">Chocolate</option>
+                    <option value="Special ">Special</option>
                 </select></div>
             </div>
         );

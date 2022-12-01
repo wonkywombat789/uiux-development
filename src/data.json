@@ -1,189 +1,157 @@
 {
     "products": [
         {
-            "_id": "Murkrow",
-            "image": "/images/Murkrow.jpg",
-            "price": 400,
+            "_id": "Apple Pie",
+            "image": "/images/applepie.jpeg",
+            "price": 5.50,
             "type": [
-                "Flying ",
-                "Dark "
+                "Pie ",
+                "Slice "
             ],
-            "evolution": 1
+            "flavor": "Fall "
         },
         {
-            "_id": "Cottonee",
-            "image": "/images/cottonee.jpg",
-            "price": 550,
+            "_id": "Key Lime pie",
+            "image": "/images/keylime.jpeg",
+            "price": 5.00,
             "type": [
-                "Grass ",
-                "Fairy "
+                "Pie ",
+                "Slice "
             ],
-            "evolution": 1
+            "flavor": "Special "
         },
         {
-            "_id": "Charzard",
-            "image": "/images/charzard.jpg",
-            "price": 6000,
-            "type": "Fire ",
-            "evolution": 3
-        },
-        {
-            "_id": "Dugtrio",
-            "image": "/images/dugtrio.jpg",
-            "price": 1500,
+            "_id": "Pumpkin Pie",
+            "image": "/images/pumpkinpie.jpeg",
+            "price": 4.50,
             "type": [
-                "Ground ",
-                "Steel "
+                "Pie ",
+                "Slice "
             ],
-            "evolution": 2
+            "flavor": "Fall "
         },
         {
-            "_id": "Magikarp",
-            "image": "/images/magikarp.jpg",
-            "price": 999999999,
-            "type": "Water ",
-            "evolution": 1
-        },
-        {
-            "_id": "Treeko",
-            "image": "/images/treeko.jpg",
-            "price": 700,
-            "type": "Grass ",
-            "evolution": 1
-        },
-        {
-            "_id": "Latias",
-            "image": "/images/latias.jpg",
-            "price": 100000,
+            "_id": "Pecan Pie",
+            "image": "/images/pecanpie.jpeg",
+            "price": 5.00,
             "type": [
-                "Dragon ",
-                "Psychic "
+                "Pie ",
+                "Slice "
             ],
-            "evolution": 1
+            "flavor": "Fall "
         },
         {
-            "_id": "Umbreon",
-            "image": "/images/umbreon.jpg",
-            "price": 3000,
-            "type": "Dark ",
-            "evolution": 2
-        },
-        {
-            "_id": "Plusle",
-            "image": "/images/plusle.jpg",
-            "price": 1500,
-            "type": "Electric ",
-            "evolution": 1
-        },
-        {
-            "_id": "Chubchoo",
-            "image": "/images/chubchoo.jpg",
-            "price": 3000,
-            "type": "Ice ",
-            "evolution": 1
-        },
-        {
-            "_id": "Weedle",
-            "image": "/images/weedle.jpg",
-            "price": 500,
+            "_id": "Vanilla Cake",
+            "image": "/images/vanillacake.jpeg",
+            "price": 3.50,
             "type": [
-                "Poison ",
-                "Bug "
+                "Cake ",
+                "Slice "
             ],
-            "evolution": 1
+            "flavor": "Vanilla "
         },
         {
-            "_id": "Politoed",
-            "image": "/images/politoed.jpg",
-            "price": 700,
-            "type": "Water ",
-            "evolution": 1
-        },
-        {
-            "_id": "Typhlosion",
-            "image": "/images/typhlosion.jpg",
-            "price": 1800,
-            "type": "Fire ",
-            "evolution": 3
-        },
-        {
-            "_id": "Chimchar",
-            "image": "/images/chimchar.jpg",
-            "price": 700,
-            "type": "Fire ",
-            "evolution": 1
-        },
-        {
-            "_id": "Pansage",
-            "image": "/images/pansage.jpg",
-            "price": 9000,
-            "type": "Grass ",
-            "evolution": 1
-        },
-        {
-            "_id": "Rillaboom",
-            "image": "/images/rillaboom.jpg",
-            "price": 700000,
-            "type": "Grass ",
-            "evolution": 3
-        },
-        {
-            "_id": "Dratini",
-            "image": "/images/dratini.jpg",
-            "price": 1000,
-            "type": "Dragon ",
-            "evolution": 1
-        },
-        {
-            "_id": "Altaria",
-            "image": "/images/altaria.jpg",
-            "price": 50000,
+            "_id": "Princess Cake",
+            "image": "/images/princesscake.jpeg",
+            "price": 7.00,
             "type": [
-                "Dragon ",
-                "Flying ",
-                "Fairy "
+                "Cake ",
+                "Slice "
             ],
-            "evolution": 2
+            "flavor": "Special "
         },
         {
-            "_id": "Dragalge",
-            "image": "/images/dragalge.jpg",
-            "price": 2000,
+            "_id": "Chocolate Cake",
+            "image": "/images/chocolatecake.jpeg",
+            "price": 4.00,
             "type": [
-                "Poison ",
-                "Dragon "
+                "Cake ",
+                "Slice "
             ],
-            "evolution": 2
+            "flavor": "Chocolate "
         },
         {
-            "_id": "Dedenne",
-            "image": "/images/dedenne.jpg",
-            "price": 700,
+            "_id": "Funfetti Cake",
+            "image": "/images/funfetticake.jpeg",
+            "price": 4.50,
             "type": [
-                "Electric ",
-                "Fairy "
+                "Cake ",
+                "Slice "
             ],
-            "evolution": 1
+            "flavor": "Vanilla "
         },
         {
-            "_id": "Lugia",
-            "image": "/images/lugia.jpg",
-            "price": 10000,
+            "_id": "Carrot Cake",
+            "image": "/images/carrotcake.jpeg",
+            "price": 5.00,
             "type": [
-                "Psychic ",
-                "Flying "
+                "Cake ",
+                "Slice "
             ],
-            "evolution": 1
+            "flavor": "Special "
         },
         {
-            "_id": "Orbeetle",
-            "image": "/images/orbeetle.jpg",
-            "price": 1700,
-            "type": [
-                "Bug ",
-                "Psychic "
-            ],
-            "evolution": 3
+            "_id": "Red Velvet Cupcake",
+            "image": "/images/redvelvetcupcake.jpeg",
+            "price": 3.00,
+            "type": "Cupcake ",
+            "flavor": "Special "
+        },
+        {
+            "_id": "Chocolate Cupcake",
+            "image": "/images/chocolatecupcake.jpeg",
+            "price": 3.00,
+            "type": "Cupcake ",
+            "flavor": "Chocolate "
+        },
+        {
+            "_id": "Vanilla Cupcake",
+            "image": "/images/vanillacupcake.jpeg",
+            "price": 2.50,
+            "type": "Cupcake ",
+            "flavor": "Vanilla "
+        },
+        {
+            "_id": "Butterscotch Cupcake",
+            "image": "/images/butterscotchcupcake.jpeg",
+            "price": 3.50,
+            "type": "Cupcake ",
+            "flavor": "Special "
+        },
+        {
+            "_id": "Chocolate Chip Cookie",
+            "image": "/images/chocolatechipcookie.jpeg",
+            "price": 3.00,
+            "type": "Cookie ",
+            "flavor": "Chocolate "
+        },
+        {
+            "_id": "Snickerdoodle",
+            "image": "/images/snickerdoodle.jpeg",
+            "price": 3.00,
+            "type": "Cookie ",
+            "flavor": "Special "
+        },
+        {
+            "_id": "Sugar Cookie",
+            "image": "/images/sugarcookie.jpeg",
+            "price": 1.50,
+            "type": "Cookie ",
+            "flavor": "Vanilla "
+        },
+        {
+            "_id": "Pumpkin Cookie",
+            "image": "/images/pumpkincookie.jpeg",
+            "price": 3.50,
+            "type": "Cookie ",
+            "flavor": "Fall "
+        },
+        {
+            "_id": "Maple Cookie",
+            "image": "/images/maplecookie.jpeg",
+            "price": 2.50,
+            "type": "Cookie ",
+            "flavor": "Fall "
         }
     ]
 }

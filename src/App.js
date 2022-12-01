@@ -12,7 +12,7 @@ class App extends Component {
       products: data.products,
       cartItems: [],
       types: "",
-      evolution: "",
+      flavor: "",
       sort: "",
     };
   }
@@ -57,17 +57,17 @@ class App extends Component {
   };
 
   // updates the filters and sets the state to update the page
-  filter = (type, evolution) => {
+  filter = (type, flavor) => {
     let filteredProducts = data.products;
     if (type !== "") {
       filteredProducts = filteredProducts.filter((product) => product.type.indexOf(type) >= 0)
     }
 
-    if (evolution !== "") {
-      filteredProducts = filteredProducts.filter((product) => product.evolution === parseInt(evolution))
+    if (flavor !== "") {
+      filteredProducts = filteredProducts.filter((product) => product.flavor.indexOf(flavor) >= 0)
     }
 
-    this.setState({ products: this.sort(filteredProducts, this.state.sort), types: type, evolution: evolution });
+    this.setState({ products: this.sort(filteredProducts, this.state.sort), types: type, flavor: flavor });
   };
 
   // sorts the products based on price and the drop down option
@@ -86,11 +86,11 @@ class App extends Component {
 
   // calls the type filter based on dropdown option
   typeFilter = (event) => {
-    this.filter(event.target.value, this.state.evolution)
+    this.filter(event.target.value, this.state.flavor)
   };
 
-  // calls the evolution filter based on dropdown option
-  evolutionFilter = (event) => {
+  // calls the flavor filter based on dropdown option
+  flavorFilter = (event) => {
     this.filter(this.state.types, event.target.value);
   };
 
@@ -108,8 +108,8 @@ class App extends Component {
     return (
       <div className="gridContainer">
         <header>
-          <h1>Pocket Monsters</h1>
-          <h3 className="phrase">Gotta Buy Them All!</h3>
+          <h1>The Sweet Exchange</h1>
+          <h3 className="phrase">Have a sweet tooth? We've got you covered.</h3>
         </header>
         <main>
           <div className="content">
@@ -122,7 +122,7 @@ class App extends Component {
                 types={this.state.types}
                 sort={this.state.sort}
                 typeFilter={this.typeFilter}
-                evolutionFilter={this.evolutionFilter}
+                flavorFilter={this.flavorFilter}
                 sortProducts={this.sortProducts} />
               <Products products={this.state.products} addToCart={this.addToCart} />
             </div>
