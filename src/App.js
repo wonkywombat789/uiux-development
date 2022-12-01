@@ -17,7 +17,6 @@ class App extends Component {
     };
   }
 
-  //Removes the product from the cart, setState to the new product count and updates the cartItems 
   removeFromCart = (product) => {
     const cartItems = this.state.cartItems.slice();
     cartItems.forEach((item) => {
@@ -25,9 +24,9 @@ class App extends Component {
         if (item.count > 1) {
           product.count--;
           cartItems.length--;
-          this.setState({ product })
+          this.setState({ product }) //setState to the new product count 
         }
-        else if (product.count === 1) {
+        else if (product.count === 1) { //completely remove from cart if there is only one
           console.log(product._id)
           this.setState({
             cartItems: cartItems.filter((item) => item._id !== product._id)
@@ -38,25 +37,23 @@ class App extends Component {
     })
   };
 
-  // Adds the product to the cart, setState to the new product count and adds product to the cartItems 
   addToCart = (product) => {
     const cartItems = this.state.cartItems.slice();
     console.log(cartItems)
     let inCart = false;
     cartItems.forEach((item) => {
-      if (item._id === product._id) {
+      if (item._id === product._id) { //item already in cart so just update the amount
         item.count++;
         inCart = true;
         cartItems.length++;
       }
     });
-    if (!inCart) {
+    if (!inCart) { //item not in cart so have to add a completely new item
       cartItems.push({ ...product, count: 1 });
     }
     this.setState({ cartItems });
   };
 
-  // updates the filters and sets the state to update the page
   filter = (type, flavor) => {
     let filteredProducts = data.products;
     if (type !== "") {
@@ -70,12 +67,11 @@ class App extends Component {
     this.setState({ products: this.sort(filteredProducts, this.state.sort), types: type, flavor: flavor });
   };
 
-  // sorts the products based on price and the drop down option
   sort = (products, sortMethod) => {
     if (sortMethod === "") {
       return products;
     }
-    return products.slice().sort((a, b) => {
+    return products.slice().sort((a, b) => { // sort based on price
       if (sortMethod === "lowest") {
         return a.price > b.price ? 1 : -1;
       } else if (sortMethod === "highest") {
@@ -84,26 +80,23 @@ class App extends Component {
     })
   };
 
-  // calls the type filter based on dropdown option
+
   typeFilter = (event) => {
-    this.filter(event.target.value, this.state.flavor)
+    this.filter(event.target.value, this.state.flavor) //filter based on type
   };
 
-  // calls the flavor filter based on dropdown option
   flavorFilter = (event) => {
-    this.filter(this.state.types, event.target.value);
+    this.filter(this.state.types, event.target.value); //filter based on flavor
   };
 
-  // calls the sort based on dropdown option and sets the state
   sortProducts = (event) => {
     const sort = event.target.value;
-    this.setState((state) => ({
+    this.setState((state) => ({ //sort from highest or lowest
       sort: sort,
       products: this.sort(this.state.products, sort)
     }));
   };
 
-  // sets the page and instances of each class. It also sets the values to variables
   render() {
     return (
       <div className="gridContainer">
