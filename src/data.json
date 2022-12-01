@@ -2,7 +2,7 @@
     "products": [
         {
             "_id": "Apple Pie",
-            "image": "/images/applepie.jpeg",
+            "image": "images/applepie.jpeg",
             "price": 5.50,
             "type": [
                 "Pie ",
@@ -12,7 +12,7 @@
         },
         {
             "_id": "Key Lime pie",
-            "image": "/images/keylime.jpeg",
+            "image": "images/keylime.jpeg",
             "price": 5.00,
             "type": [
                 "Pie ",
@@ -22,7 +22,7 @@
         },
         {
             "_id": "Pumpkin Pie",
-            "image": "/images/pumpkinpie.jpeg",
+            "image": "images/pumpkinpie.jpeg",
             "price": 4.50,
             "type": [
                 "Pie ",
@@ -32,7 +32,7 @@
         },
         {
             "_id": "Pecan Pie",
-            "image": "/images/pecanpie.jpeg",
+            "image": "images/pecanpie.jpeg",
             "price": 5.00,
             "type": [
                 "Pie ",
@@ -42,7 +42,7 @@
         },
         {
             "_id": "Vanilla Cake",
-            "image": "/images/vanillacake.jpeg",
+            "image": "images/vanillacake.jpeg",
             "price": 3.50,
             "type": [
                 "Cake ",
@@ -52,7 +52,7 @@
         },
         {
             "_id": "Princess Cake",
-            "image": "/images/princesscake.jpeg",
+            "image": "images/princesscake.jpeg",
             "price": 7.00,
             "type": [
                 "Cake ",
@@ -62,7 +62,7 @@
         },
         {
             "_id": "Chocolate Cake",
-            "image": "/images/chocolatecake.jpeg",
+            "image": "images/chocolatecake.jpeg",
             "price": 4.00,
             "type": [
                 "Cake ",
