@@ -72,7 +72,7 @@
         },
         {
             "_id": "Funfetti Cake",
-            "image": "/images/funfetticake.jpeg",
+            "image": "images/funfetticake.jpeg",
             "price": 4.50,
             "type": [
                 "Cake ",
@@ -82,7 +82,7 @@
         },
         {
             "_id": "Carrot Cake",
-            "image": "/images/carrotcake.jpeg",
+            "image": "images/carrotcake.jpeg",
             "price": 5.00,
             "type": [
                 "Cake ",
@@ -92,63 +92,63 @@
         },
         {
             "_id": "Red Velvet Cupcake",
-            "image": "/images/redvelvetcupcake.jpeg",
+            "image": "images/redvelvetcupcake.jpeg",
             "price": 3.00,
             "type": "Cupcake ",
             "flavor": "Special "
         },
         {
             "_id": "Chocolate Cupcake",
-            "image": "/images/chocolatecupcake.jpeg",
+            "image": "images/chocolatecupcake.jpeg",
             "price": 3.00,
             "type": "Cupcake ",
             "flavor": "Chocolate "
         },
         {
             "_id": "Vanilla Cupcake",
-            "image": "/images/vanillacupcake.jpeg",
+            "image": "images/vanillacupcake.jpeg",
             "price": 2.50,
             "type": "Cupcake ",
             "flavor": "Vanilla "
         },
         {
             "_id": "Butterscotch Cupcake",
-            "image": "/images/butterscotchcupcake.jpeg",
+            "image": "images/butterscotchcupcake.jpeg",
             "price": 3.50,
             "type": "Cupcake ",
             "flavor": "Special "
         },
         {
             "_id": "Chocolate Chip Cookie",
-            "image": "/images/chocolatechipcookie.jpeg",
+            "image": "images/chocolatechipcookie.jpeg",
             "price": 3.00,
             "type": "Cookie ",
             "flavor": "Chocolate "
         },
         {
             "_id": "Snickerdoodle",
-            "image": "/images/snickerdoodle.jpeg",
+            "image": "images/snickerdoodle.jpeg",
             "price": 3.00,
             "type": "Cookie ",
             "flavor": "Special "
         },
         {
             "_id": "Sugar Cookie",
-            "image": "/images/sugarcookie.jpeg",
+            "image": "images/sugarcookie.jpeg",
             "price": 1.50,
             "type": "Cookie ",
             "flavor": "Vanilla "
         },
         {
             "_id": "Pumpkin Cookie",
-            "image": "/images/pumpkincookie.jpeg",
+            "image": "images/pumpkincookie.jpeg",
             "price": 3.50,
             "type": "Cookie ",
             "flavor": "Fall "
         },
         {
             "_id": "Maple Cookie",
-            "image": "/images/maplecookie.jpeg",
+            "image": "images/maplecookie.jpeg",
             "price": 2.50,
             "type": "Cookie ",
             "flavor": "Fall "
