@@ -6,8 +6,6 @@ export default class Products extends Component {
         return (
             <div>
                 <ul className="products">
-                    {/* creates each item/product with the title, type, evolution, and price. It has a button to add to cart */}
-                    {/* creates each item/product with the title, type, flavor, and price. It has a button to add to cart */}
                     {this.props.products.map(product => (
                         <li key={product._id}>
                             <div className="product">

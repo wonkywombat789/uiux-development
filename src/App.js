@@ -4,7 +4,6 @@ import Products from './components/Products'
 import Filter from './components/Filter'
 import Cart from './components/Cart'
 
-// creates the props and sets the state
 class App extends Component {
   constructor(props) {
     super()
